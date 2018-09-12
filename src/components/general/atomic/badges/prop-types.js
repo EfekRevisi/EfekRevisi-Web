@@ -1,9 +1,13 @@
 export default {
-  type: {
+  color: {
     type: String,
-    default: 'default',
+    default: null
+  },
+  position: {
+    type: String,
+    default: 'right',
     validator: value => {
-      var label = ['default', 'google']
+      var label = ['left', 'right']
 
       return label.indexOf(value) > -1
     }
