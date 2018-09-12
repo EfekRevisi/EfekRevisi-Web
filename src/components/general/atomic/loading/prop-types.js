@@ -7,9 +7,5 @@ export default {
 
       return label.indexOf(value) > -1
     }
-  },
-  value: {
-    type: Boolean | Number | String,
-    default: true
   }
 }

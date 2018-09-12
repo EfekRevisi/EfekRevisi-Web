@@ -14,11 +14,10 @@
 
 <script>
 import ArrayMixin from '@/mixins/array.mixins'
-import ColorMixin from '@/mixins/color.mixins'
 import props from './prop-types'
 
 export default {
-  mixins: [ArrayMixin, ColorMixin],
+  mixins: [ArrayMixin],
   props,
   computed: {
     classes() {
@@ -26,8 +25,7 @@ export default {
         'ef-icon': true,
         'ef-icon--small': this.size === 'small',
         'ef-icon--large': this.size === 'large',
-        'ef-icon--x-large': this.size === 'x-large',
-        [`ef-icon--${this.color}`]: this.isColorAvailable(this.color)
+        'ef-icon--x-large': this.size === 'x-large'
       }
 
       if (this.type === 'material-icons') {
@@ -42,7 +40,7 @@ export default {
       const generateStyle = (...args) => {
         return {
           'font-size': args[0] ? `${args[0]}px` : null,
-          color: this.isColorAvailable(this.color) ? null : args[1]
+          color: args[1]
         }
       }
 
