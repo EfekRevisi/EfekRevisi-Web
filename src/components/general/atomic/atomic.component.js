@@ -17,7 +17,7 @@ const image = () =>
   import(/* webpackChunkName: "image" */ './image/image.component.vue')
 
 const irfan = () =>
-  import(/* webpackChunkName: "irfan" */ './irfan/irfan.component.vue')
+  import(/* webpackChunkName: "general" */ './irfan/irfan.component.vue')
 
 const loading = () =>
   import(/* webpackChunkName: "loading" */ './loading/loading.component.vue')
