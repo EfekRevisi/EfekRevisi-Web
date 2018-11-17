@@ -1,5 +1,5 @@
 <template>
-  <h1>Irfan</h1>
+  <h1>Irfan Component</h1>
 </template>
 
 <style lang="scss">
