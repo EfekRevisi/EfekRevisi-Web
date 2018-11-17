@@ -23,7 +23,7 @@ const radioButton = () =>
   import(/* webpackChunkName: "radio-button" */ './radio-button/radio-button.component.vue')
 
 const ramlicomp = () =>
-  import(/* webpackChunkName: "ramlicomp" */ './ramlicomp/ramlicomp.component.vue')
+  import(/* webpackChunkName: "general-component" */ './ramlicomp/ramlicomp.component.vue')
 
 const textfield = () =>
   import(/* webpackChunkName: "textfield" */ './textfield/textfield.component.vue')

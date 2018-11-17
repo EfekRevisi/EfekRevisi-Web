@@ -1,5 +1,5 @@
 <template>
-  <h1>Ramli Component test</h1>
+  <h1>Ramli Component</h1>
 </template>
 
 <style lang="scss">
