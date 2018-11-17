@@ -16,6 +16,9 @@ const icon = () =>
 const image = () =>
   import(/* webpackChunkName: "image" */ './image/image.component.vue')
 
+const irfan = () =>
+  import(/* webpackChunkName: "irfan" */ './irfan/irfan.component.vue')
+
 const loading = () =>
   import(/* webpackChunkName: "loading" */ './loading/loading.component.vue')
 
@@ -55,6 +58,10 @@ export default [
   {
     component: image,
     name: 'ui-image'
+  },
+  {
+    component: irfan,
+    name: 'ui-irfan'
   },
   {
     component: loading,
