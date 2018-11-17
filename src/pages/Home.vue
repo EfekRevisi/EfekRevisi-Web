@@ -3,6 +3,7 @@
     class="full-width center-content"
     style="padding: 20px;"
   >
+    <ui-ramlicomp />
     <ui-badges
       v-model="show"
       position="left"
