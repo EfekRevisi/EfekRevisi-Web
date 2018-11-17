@@ -46,62 +46,62 @@ const toast = () =>
 export default [
   {
     component: accordion,
-    name: 'ui-accordion'
+    name: 'ui-molecules-accordion'
   },
   {
     component: alert,
-    name: 'ui-alert'
+    name: 'ui-molecules-alert'
   },
   {
     component: avatar,
-    name: 'ui-avatar'
+    name: 'ui-molecules-avatar'
   },
   {
     component: blurImages,
-    name: 'ui-blur-images'
+    name: 'ui-molecules-blur-images'
   },
   {
     component: breadcrumbs,
-    name: 'ui-breadcrumbs'
+    name: 'ui-molecules-breadcrumbs'
   },
   {
     component: card,
-    name: 'ui-card'
+    name: 'ui-molecules-card'
   },
   {
     component: carousels,
-    name: 'ui-carousels'
+    name: 'ui-molecules-carousels'
   },
   {
     component: combobox,
-    name: 'ui-combobox'
+    name: 'ui-molecules-combobox'
   },
   {
     component: datePicker,
-    name: 'ui-datepicker'
+    name: 'ui-molecules-datepicker'
   },
   {
     component: dialog,
-    name: 'ui-dialog'
+    name: 'ui-molecules-dialog'
   },
   {
     component: dropdown,
-    name: 'ui-dropdown'
+    name: 'ui-molecules-dropdown'
   },
   {
     component: snackbars,
-    name: 'ui-snackbars'
+    name: 'ui-molecules-snackbars'
   },
   {
     component: tab,
-    name: 'ui-tab'
+    name: 'ui-molecules-tab'
   },
   {
     component: table,
-    name: 'ui-table'
+    name: 'ui-molecules-table'
   },
   {
     component: toast,
-    name: 'ui-toast'
+    name: 'ui-molecules-toast'
   }
 ]
