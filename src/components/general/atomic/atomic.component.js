@@ -37,50 +37,50 @@ const tooltip = () =>
 export default [
   {
     component: badges,
-    name: 'ui-badges'
+    name: 'ui-atomic-badges'
   },
   {
     component: button,
-    name: 'ui-button'
+    name: 'ui-atomic-button'
   },
   {
     component: checkbox,
-    name: 'ui-checkbox'
+    name: 'ui-atomic-checkbox'
   },
   {
     component: divider,
-    name: 'ui-divider'
+    name: 'ui-atomic-divider'
   },
   {
     component: icon,
-    name: 'ui-icon'
+    name: 'ui-atomic-icon'
   },
   {
     component: image,
-    name: 'ui-image'
+    name: 'ui-atomic-image'
   },
   {
     component: irfan,
-    name: 'ui-irfan'
+    name: 'ui-atomic-irfan'
   },
   {
     component: loading,
-    name: 'ui-loading'
+    name: 'ui-atomic-loading'
   },
   {
     component: radioButton,
-    name: 'ui-radio-button'
+    name: 'ui-atomic-radio-button'
   },
   {
     component: ramlicomp,
-    name: 'ui-ramlicomp'
+    name: 'ui-atomic-ramlicomp'
   },
   {
     component: textfield,
-    name: 'ui-textfield'
+    name: 'ui-atomic-textfield'
   },
   {
     component: tooltip,
-    name: 'ui-tooltip'
+    name: 'ui-atomic-tooltip'
   }
 ]
