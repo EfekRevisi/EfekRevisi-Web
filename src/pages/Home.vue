@@ -62,7 +62,7 @@ export default {
       show: true,
       title: 'Bandung',
       subtitle: 'Banjir',
-      rating: 5
+      rating: 4
     }
   }
 }
