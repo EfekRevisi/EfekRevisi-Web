@@ -63,15 +63,19 @@ export default {
     styles() {
       const generateStyle = (...args) => {
         return {
-          'height': args[0] ? `${this.isNumber(args[0]) ? `${args[0]}px` : args[0]}` : 'initial',
-          'width': args[1] ? `${this.isNumber(args[1]) ? `${args[1]}px` : args[1]}` : 'initial'
+          height: args[0]
+            ? `${this.isNumber(args[0]) ? `${args[0]}px` : args[0]}`
+            : 'initial',
+          width: args[1]
+            ? `${this.isNumber(args[1]) ? `${args[1]}px` : args[1]}`
+            : 'initial'
         }
       }
 
       return this.checkKeyIsNotNull(generateStyle(this.height, this.width))
     }
   },
-  mounted: function /* istanbul ignore next */ () {
+  mounted: function() /* istanbul ignore next */ {
     var loResImg, hiResImg, context
     loResImg = new Image()
     hiResImg = new Image()

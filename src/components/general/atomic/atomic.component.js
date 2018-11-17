@@ -16,17 +16,11 @@ const icon = () =>
 const image = () =>
   import(/* webpackChunkName: "image" */ './image/image.component.vue')
 
-const irfan = () =>
-  import(/* webpackChunkName: "general" */ './irfan/irfan.component.vue')
-
 const loading = () =>
   import(/* webpackChunkName: "loading" */ './loading/loading.component.vue')
 
 const radioButton = () =>
   import(/* webpackChunkName: "radio-button" */ './radio-button/radio-button.component.vue')
-
-const ramlicomp = () =>
-  import(/* webpackChunkName: "general-component" */ './ramlicomp/ramlicomp.component.vue')
 
 const textfield = () =>
   import(/* webpackChunkName: "textfield" */ './textfield/textfield.component.vue')
@@ -37,50 +31,42 @@ const tooltip = () =>
 export default [
   {
     component: badges,
-    name: 'ui-badges'
+    name: 'ui-atomic-badges'
   },
   {
     component: button,
-    name: 'ui-button'
+    name: 'ui-atomic-button'
   },
   {
     component: checkbox,
-    name: 'ui-checkbox'
+    name: 'ui-atomic-checkbox'
   },
   {
     component: divider,
-    name: 'ui-divider'
+    name: 'ui-atomic-divider'
   },
   {
     component: icon,
-    name: 'ui-icon'
+    name: 'ui-atomic-icon'
   },
   {
     component: image,
-    name: 'ui-image'
-  },
-  {
-    component: irfan,
-    name: 'ui-irfan'
+    name: 'ui-atomic-image'
   },
   {
     component: loading,
-    name: 'ui-loading'
+    name: 'ui-atomic-loading'
   },
   {
     component: radioButton,
-    name: 'ui-radio-button'
-  },
-  {
-    component: ramlicomp,
-    name: 'ui-ramlicomp'
+    name: 'ui-atomic-radio-button'
   },
   {
     component: textfield,
-    name: 'ui-textfield'
+    name: 'ui-atomic-textfield'
   },
   {
     component: tooltip,
-    name: 'ui-tooltip'
+    name: 'ui-atomic-tooltip'
   }
 ]

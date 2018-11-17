@@ -7,10 +7,10 @@ const header = () =>
 export default [
   {
     component: footer,
-    name: 'ui-footer'
+    name: 'ui-organism-footer'
   },
   {
     component: header,
-    name: 'ui-header'
+    name: 'ui-organism-header'
   }
 ]
