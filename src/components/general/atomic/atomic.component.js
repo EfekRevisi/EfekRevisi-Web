@@ -16,11 +16,17 @@ const icon = () =>
 const image = () =>
   import(/* webpackChunkName: "image" */ './image/image.component.vue')
 
+const irfan = () =>
+  import(/* webpackChunkName: "general" */ './irfan/irfan.component.vue')
+
 const loading = () =>
   import(/* webpackChunkName: "loading" */ './loading/loading.component.vue')
 
 const radioButton = () =>
   import(/* webpackChunkName: "radio-button" */ './radio-button/radio-button.component.vue')
+
+const ramlicomp = () =>
+  import(/* webpackChunkName: "general-component" */ './ramlicomp/ramlicomp.component.vue')
 
 const textfield = () =>
   import(/* webpackChunkName: "textfield" */ './textfield/textfield.component.vue')
@@ -54,12 +60,20 @@ export default [
     name: 'ui-image'
   },
   {
+    component: irfan,
+    name: 'ui-irfan'
+  },
+  {
     component: loading,
     name: 'ui-loading'
   },
   {
     component: radioButton,
     name: 'ui-radio-button'
+  },
+  {
+    component: ramlicomp,
+    name: 'ui-ramlicomp'
   },
   {
     component: textfield,

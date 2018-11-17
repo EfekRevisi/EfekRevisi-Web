@@ -3,6 +3,16 @@
     class="full-width center-content"
     style="padding: 20px;"
   >
+    <ui-ramlicomp
+      :rating="rating"
+      :sub-title="subtitle"
+      :title="title"
+    />
+    <ui-ramlicomp
+      :rating="4"
+      sub-title="Bandung banjir di baleendah"
+      title="Bandung Banjir"
+    />
     <ui-badges
       v-model="show"
       position="left"
@@ -49,7 +59,10 @@
 export default {
   data() {
     return {
-      show: true
+      show: true,
+      title: 'Bandung',
+      subtitle: 'Banjir',
+      rating: 4
     }
   }
 }
