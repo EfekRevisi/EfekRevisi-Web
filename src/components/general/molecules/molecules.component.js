@@ -73,7 +73,7 @@ export default [
   },
   {
     component: cardNews,
-    name: 'ui-cardnews'
+    name: 'ui-card-news'
   },
   {
     component: carousels,
