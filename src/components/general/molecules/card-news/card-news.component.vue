@@ -2,7 +2,7 @@
   <div
     class="ef-card-news"
   >
-    <ui-image
+    <ui-atomic-image
       class="ef-card-news__image"
       height="200px"
       width="100%"
@@ -12,16 +12,16 @@
     <div class="ef-card-news__container">
       <h3>{{ title }}</h3>
       <div class="ef-card-news__action flex">
-        <ui-avatar
+        <ui-molecules-avatar
           :date="date"
           :name="name"
         />
         <div class="ef-card-news__button-fav">
-          <ui-icon
+          <ui-atomic-icon
             type="material-icons"
           >
             favorite_border
-          </ui-icon>
+          </ui-atomic-icon>
         </div>
       </div>
     </div>
