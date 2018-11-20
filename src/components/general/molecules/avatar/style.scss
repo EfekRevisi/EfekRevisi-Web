@@ -1,0 +1,28 @@
+.ef-avatar {
+  align-items: center;
+  justify-content: center;
+
+  &__image {
+    @include rounded(50%);
+
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+  &__desc {
+    @include margin-left(10px);
+
+    p {
+      display: block;
+
+      @include font-color(#282169);
+      @include no-margin();
+    }
+
+    span {
+      @include font-color(#d2d2d2);
+      @include margin-top(5px);
+    }
+  }
+}

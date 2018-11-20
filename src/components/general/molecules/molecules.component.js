@@ -16,6 +16,9 @@ const breadcrumbs = () =>
 const card = () =>
   import(/* webpackChunkName: "card" */ './card/card.component.vue')
 
+const cardNews = () =>
+  import(/* webpackChunkName: "card-news" */ './card-news/card-news.component.vue')
+
 const carousels = () =>
   import(/* webpackChunkName: "carousels" */ './carousels/carousels.component.vue')
 
@@ -67,6 +70,10 @@ export default [
   {
     component: card,
     name: 'ui-molecules-card'
+  },
+  {
+    component: cardNews,
+    name: 'ui-card-news'
   },
   {
     component: carousels,

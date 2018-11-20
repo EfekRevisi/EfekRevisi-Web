@@ -25,7 +25,7 @@
         key="loading"
         class="ef-image__loading blur-transition"
       >
-        <ui-loading
+        <ui-atomic-loading
           key="loading"
         />
       </div>
@@ -57,7 +57,8 @@ export default {
         'ef-image': true,
         'ef-image--gradient': this.gradient,
         'ef-image--contain': this.contain,
-        'ef-image--rounded': this.rounded
+        'ef-image--rounded': this.rounded,
+        'ef-image--circle': this.circle
       }
     },
     styles() {

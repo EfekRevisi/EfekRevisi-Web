@@ -13,6 +13,10 @@ $black: #000;
     @include rounded(5px);
   }
 
+  &--circle {
+    @include rounded(50%);
+  }
+
   @at-root {
     &--contain {
       #{$root}__content {

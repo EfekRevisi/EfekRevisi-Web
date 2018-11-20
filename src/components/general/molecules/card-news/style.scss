@@ -1,0 +1,27 @@
+.ef-card-news {
+  @include box-shadow-multi(0 5px 25px rgba(#768D9C,.1), 0 10px 50px rgba(#768D9C,.05));
+  @include rounded(5px);
+
+  overflow: hidden;
+
+  &__container {
+    @include padding(all, 20px);
+  }
+
+  &__action {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @include margin-top(20px);
+  }
+
+  &__container h3 {
+    @include font-color(#303030);
+    @include no-margin();
+  }
+
+  &__button-fav {
+    @include font-color(#306da9);
+  }
+}

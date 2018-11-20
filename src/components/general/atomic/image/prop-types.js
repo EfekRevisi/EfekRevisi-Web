@@ -26,5 +26,9 @@ export default {
   rounded: {
     type: Boolean,
     default: false
+  },
+  circle: {
+    type: Boolean,
+    default: false
   }
 }
